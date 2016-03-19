@@ -1,0 +1,128 @@
+/*
+ * for creating flex container
+ */
+.center-center-box {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-start-box {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.center-end-box {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.center-spaceBetween-box {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.start-center-box {
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.start-start-box {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.start-end-box {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.start-spaceBetween-box {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.end-center-box {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.end-start-box {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.end-end-box {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.end-spaceBetween-box {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.left-top-box {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left-middle-box {
+  justify-content: flex-start;
+  align-items: flex-center;
+}
+
+.left-bottom-box {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.center-top-box {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center-middle-box {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-bottom-box {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.right-top-box {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.right-middle-box {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-bottom-box {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.spaceBetween-box {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-reverse {
+  flex-direction: row-reverse;
+}

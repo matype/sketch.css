@@ -1,0 +1,15 @@
+/*
+ * State
+ */
+.is-deleted {
+  display: none;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.is-disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}

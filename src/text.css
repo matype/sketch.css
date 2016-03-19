@@ -1,0 +1,47 @@
+/*
+ * Text
+ */
+
+/*
+ * Text size
+ * from 10 to 40px
+ */
+@for $i from 10 to 40 {
+  .text-$(i)px {
+    font-size: $(i)px;
+  }
+}
+
+/*
+ * Text arign
+ */
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/*
+ * Font weight
+ */
+.text-normal {
+  font-weight: normal;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+.text-bolder {
+  font-weight: bolder;
+}

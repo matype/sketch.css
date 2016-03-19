@@ -1,0 +1,57 @@
+/*
+ * Margin
+ */
+.mg-0 {
+  margin: 0;
+}
+
+.top-mg-0 {
+  margin-top: 0;
+}
+
+.right-mg-0 {
+  margin-right: 0;
+}
+
+.bottom-top-mg-0 {
+  margin-bottom: 0;
+}
+
+.left-mg-0 {
+  margin-left: 0;
+}
+
+/*
+ * Loop
+ * from 1 to 30px
+ */
+@for $i from 1 to 50 {
+  .mg-$(i)px {
+    margin: $(i)px;
+  }
+
+  .top-mg-$(i)px {
+    margin-top: $(i)px;
+  }
+
+  .right-mg-$(i)px {
+    margin-right: $(i)px;
+  }
+
+  .bottom-mg-$(i)px {
+    margin-bottom: $(i)px;
+  }
+
+  .left-mg-$(i)px {
+    margin-left: $(i)px;
+  }
+}
+
+
+/*
+ * Centering
+ */
+.centering {
+  margin-right: auto;
+  margin-left: auto;
+}

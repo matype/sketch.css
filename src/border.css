@@ -1,0 +1,29 @@
+/*
+ * Border
+ */
+@for $i from 1 to 10 {
+  .border-$(i)px {
+    border: $(i)px solid;
+  }
+
+  .under-line-$(i)px {
+    border-bottom: $(i)px solid;
+  }
+}
+
+/*
+ * border-radius
+ * from 1px to 10px
+ */
+@for $i from 1 to 10 {
+  .radius-$(i)px {
+    border-radius: $(i)px;
+  }
+}
+
+/*
+ * border-radius: 100%
+ */
+.circle {
+  border-radius: 100%;
+}

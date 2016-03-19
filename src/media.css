@@ -1,0 +1,16 @@
+/*
+ * Responsive media pattern
+ */
+.media {
+  display: flex;
+}
+
+.media__image {
+  margin-right: 1em;
+}
+
+.media__body {
+  flex: 1;
+  width: 0;
+  min-width: 0;
+}

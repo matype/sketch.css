@@ -1,0 +1,25 @@
+.pos_0_0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*
+ * Loop
+ * from -30px to 30px
+ */
+@for $i from 1 to 30 {
+  @for $j from 0 to 50 {
+    .pos_$(i)px_$(j)px {
+      position: absolute;
+      top: $(i)px;
+      left: $(j)px;
+    }
+
+    .pos_-$(i)px_-$(j)px {
+      position: absolute;
+      top: -$(i)px;
+      left: -$(j)px;
+    }
+  }
+}

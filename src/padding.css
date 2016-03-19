@@ -1,0 +1,48 @@
+/*
+ * Padding
+ */
+.pd-0 {
+  padding: 0;
+}
+
+.top-pd-0 {
+  padding-top: 0;
+}
+
+.right-pd-0 {
+  padding-right: 0;
+}
+
+.bottom-top-pd-0 {
+  padding-bottom: 0;
+}
+
+.left-pd-0 {
+  padding-left: 0;
+}
+
+/*
+ * Loop
+ * from 1 to 30px
+ */
+@for $i from 1 to 50 {
+  .pd-$(i)px {
+    padding: $(i)px;
+  }
+
+  .top-pd-$(i)px {
+    padding-top: $(i)px;
+  }
+
+  .right-pd-$(i)px {
+    padding-right: $(i)px;
+  }
+
+  .bottom-top-pd-$(i)px {
+    padding-bottom: $(i)px;
+  }
+
+  .left-pd-$(i)px {
+    padding-left: $(i)px;
+  }
+}

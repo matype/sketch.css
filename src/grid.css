@@ -1,0 +1,39 @@
+/*
+ * Grid layout by flexbox
+ */
+
+.grid {
+  flex-flow: row wrap;
+}
+
+.grid-top {
+  align-items: flex-start;
+}
+
+.grid-bottom {
+  align-items: flex-end;
+}
+
+.grid-center {
+  align-items: center;
+}
+
+.cell {
+  flex: 1;
+}
+
+.cell-full {
+  flex: 0 0 100%;
+}
+
+.cell-half {
+  flex: 0 0 calc(100% / 2);
+}
+
+.cell-one-third {
+  flex: 0 0 calc(100% / 3)%;
+}
+
+.cell-quarter {
+  flex: 0 0 calc(100% / 4)%;
+}

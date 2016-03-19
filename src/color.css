@@ -1,0 +1,223 @@
+:root {
+  --black: #333;
+  --darkGray: #777;
+  --gray: #aaa;
+  --lightGray: #ddd;
+  --white: #fff;
+  --blue: #0074d9;
+  --navy: #001f3f;
+  --aqua: #7fdbff;
+  --teal: #39cccc;
+  --olive: #3d9970;
+  --green: #2ecc40;
+  --lime: #01ff70;
+  --yellow: ffdc00;
+  --orange: #ff851b;
+  --red: #ff4136;
+  --maroon: #85144b;
+  --purple: #b10dc9;
+}
+
+.black {
+  color: var(--black);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.border-black {
+  border-color: var(--black);
+}
+
+.darkGray {
+  color: var(--darkGray);
+}
+
+.bg-darkGray {
+  background-color: var(--darkGray);
+}
+
+.border-darkGray {
+  border-color: var(--darkGray);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.border-gray {
+  border-color: var(--gray);
+}
+
+.lightGray {
+  color: var(--lightGray);
+}
+
+.bg-lightGray {
+  background-color: var(--lightGray);
+}
+
+.border-lightGray {
+  border-color: var(--lightGray);
+}
+
+.white {
+  color: var(--white);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.border-white {
+  border-color: var(--white);
+}
+
+.navy {
+  color: var(--navy);
+}
+
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.border-navy {
+  border-color: var(--navy);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.border-blue {
+  border-color: var(--blue);
+}
+
+.aqua {
+  color: var(--aqua);
+}
+
+.bg-aqua {
+  background-color: var(--aqua);
+}
+
+.border-aqua {
+  border-color: var(--aqua);
+}
+
+.teal {
+  color: var(--teal);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}
+
+.border-teal {
+  border-color: var(--teal);
+}
+
+.olive {
+  color: var(--olive);
+}
+
+.bg-olive {
+  background-color: var(--olive);
+}
+
+.border-olive {
+  border-color: var(--olive);
+}
+
+.green {
+  color: var(--green);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.border-green {
+  border-color: var(--green);
+}
+
+.lime {
+  color: var(--lime);
+}
+
+.bg-lime {
+  background-color: var(--lime);
+}
+
+.border-lime {
+  border-color: var(--lime);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.border-yellow {
+  border-color: var(--yellow);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.border-orange {
+  border-color: var(--orange);
+}
+
+.red {
+  color: var(--red);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.border-red {
+  border-color: var(--red);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.border-purple {
+  border-color: var(--purple);
+}
+
+.maroon {
+  color: var(--maroon);
+}
+
+.bg-maroon {
+  background-color: var(--maroon);
+}
+
+.border-maroon {
+  border-color: var(--maroon);
+}
