@@ -1,6 +1,6 @@
 {
   "name": "sketch.css",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sketch is a CSS framework, it makes Web designing more fun.",
   "scripts": {
     "build": "gulp build && cssfmt dist/sketch.css"
