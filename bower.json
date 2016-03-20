@@ -1,0 +1,8 @@
+{
+  "name": "sketch.css",
+  "version": "0.0.1",
+  "ignore": [
+    "bower.json",
+    ".gitignore"
+  ]
+}
