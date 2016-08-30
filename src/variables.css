@@ -1,0 +1,49 @@
+/*
+ * Spacing
+ */
+:root {
+  --spacing-none: 0;
+  --spacing-xs: .25rem;
+  --spacing-s: .5rem;
+  --spacing-m: 1rem;
+  --spacing-l: 2rem;
+  --spacing-xl: 4rem;
+}
+
+/*
+ * Color Palette
+ */
+:root {
+  /* Gray scales */
+  --black: #333;
+  --darkGray: #777;
+  --gray: #aaa;
+  --lightGray: #ddd;
+  --white: #fff;
+
+  /* Chromatic */
+  --blue: #0074d9;
+  --navy: #001f3f;
+  --aqua: #7fdbff;
+  --teal: #39cccc;
+  --olive: #3d9970;
+  --green: #2ecc40;
+  --lime: #01ff70;
+  --yellow: ffdc00;
+  --orange: #ff851b;
+  --red: #ff4136;
+  --maroon: #85144b;
+  --purple: #b10dc9;
+}
+
+/*
+ * Font size
+ */
+:root {
+  --font-xs: 1rem;
+  --font-s: 1.2rem;
+  --font-m: 1.4rem;
+  --font-l: 1.6rem;
+  --font-xl: 2rem;
+  --font-xxl: 2.4rem;
+}

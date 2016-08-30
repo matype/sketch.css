@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Sketch is a CSS framework, it makes Web designing more fun.",
   "scripts": {
-    "build": "gulp build && cssfmt dist/sketch.css"
+    "build": "gulp build && stylefmt dist/sketch.css"
   },
   "repository": {
     "type": "git",
@@ -24,19 +24,18 @@
   "author": "Masaaki Morishita",
   "license": "MIT",
   "devDependencies": {
-    "cssfmt": "^2.1.5",
     "gulp": "^3.9.1",
     "gulp-csso": "^1.1.0",
     "gulp-postcss": "^6.1.0",
     "gulp-rename": "^1.2.2",
+    "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.0",
     "postcss-flexbugs-fixes": "^2.0.0",
     "postcss-for": "^2.0.1",
     "postcss-import": "^8.0.2",
-    "postcss-nested": "^1.0.0",
-    "postcss-size": "^1.0.0"
+    "stylefmt": "^4.2.3"
   },
   "dependencies": {
-    "suitcss-base": "^1.0.2"
+    "suitcss-base": "^2.0.0"
   }
 }

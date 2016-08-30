@@ -3,18 +3,16 @@ var gulp = require('gulp')
 gulp.task('build', function () {
     var postcss = require('gulp-postcss')
     var customProperties = require('postcss-custom-properties')
+    var customMedia = require('postcss-custom-media')
     var For = require('postcss-for')
-    var nested = require('postcss-nested')
-    var size = require('postcss-size')
     var Import = require('postcss-import')
     var flexbugsfixes = require('postcss-flexbugs-fixes')
     var csso = require('gulp-csso')
     var processors = [
         Import,
         customProperties,
+        customMedia,
         For,
-        nested,
-        size,
         flexbugsfixes
     ]
     var rename = require('gulp-rename')

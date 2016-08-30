@@ -1,48 +1,129 @@
 /*
  * Padding
  */
+ 
+ /* none */
 .pd-0 {
-  padding: 0;
+  padding: var(--spacing-none);
 }
 
 .top-pd-0 {
-  padding-top: 0;
+  padding-top: var(--spacing-none);
 }
 
 .right-pd-0 {
-  padding-right: 0;
+  padding-right: var(--spacing-none);
 }
 
 .bottom-top-pd-0 {
-  padding-bottom: 0;
+  padding-bottom: var(--spacing-none);
 }
 
 .left-pd-0 {
-  padding-left: 0;
+  padding-left: var(--spacing-none);
 }
 
-/*
- * Loop
- * from 1 to 30px
- */
-@for $i from 1 to 50 {
-  .pd-$(i)px {
-    padding: $(i)px;
-  }
+/* xs */
+.pd-xs {
+  padding: var(--spacing-xs);
+}
 
-  .top-pd-$(i)px {
-    padding-top: $(i)px;
-  }
+.top-pd-xs {
+  padding-top: var(--spacing-xs);
+}
 
-  .right-pd-$(i)px {
-    padding-right: $(i)px;
-  }
+.right-pd-xs {
+  padding-right: var(--spacing-xs);
+}
 
-  .bottom-top-pd-$(i)px {
-    padding-bottom: $(i)px;
-  }
+.bottom-top-pd-xs {
+  padding-bottom: var(--spacing-xs);
+}
 
-  .left-pd-$(i)px {
-    padding-left: $(i)px;
-  }
+.left-pd-xs {
+  padding-left: var(--spacing-xs);
+}
+
+/* s */
+.pd-s {
+  padding: var(--spacing-s);
+}
+
+.top-pd-s {
+  padding-top: var(--spacing-s);
+}
+
+.right-pd-s {
+  padding-right: var(--spacing-s);
+}
+
+.bottom-top-pd-s {
+  padding-bottom: var(--spacing-s);
+}
+
+.left-pd-s {
+  padding-left: var(--spacing-s);
+}
+
+/* m */
+.pd-m {
+  padding: var(--spacing-m);
+}
+
+.top-pd-m {
+  padding-top: var(--spacing-m);
+}
+
+.right-pd-m {
+  padding-right: var(--spacing-m);
+}
+
+.bottom-top-pd-m {
+  padding-bottom: var(--spacing-m);
+}
+
+.left-pd-m {
+  padding-left: var(--spacing-m);
+}
+
+/* xs */
+.pd-l {
+  padding: var(--spacing-l);
+}
+
+.top-pd-l {
+  padding-top: var(--spacing-l);
+}
+
+.right-pd-l {
+  padding-right: var(--spacing-l);
+}
+
+.bottom-top-pd-l {
+  padding-bottom: var(--spacing-l);
+}
+
+.left-pd-l {
+  padding-left: var(--spacing-l);
+}
+
+/* xl */
+.pd-xl {
+  padding: var(--spacing-xl);
+}
+
+.top-pd-xl {
+  padding-top: var(--spacing-xl);
+}
+
+.right-pd-xl {
+  padding-right: var(--spacing-xl);
+}
+
+.bottom-top-pd-xl {
+  padding-bottom: var(--spacing-xl);
+}
+
+.left-pd-xl {
+  padding-left: var(--spacing-xl);
 }

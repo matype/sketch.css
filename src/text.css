@@ -2,14 +2,45 @@
  * Text
  */
 
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/*
+* font-size
+*/
+html {
+
+  /*
+  * 1rem = 10px
+  * (16px * 0.625 = 10px)
+  * http://snook.ca/archives/html_and_css/font-size-with-rem
+  */
+  font-size: 62.5%;
+}
+
 /*
  * Text size
- * from 10 to 40px
  */
-@for $i from 10 to 40 {
-  .text-$(i)px {
-    font-size: $(i)px;
-  }
+.text-xs {
+  font-size: var(--font-xs);
+}
+
+.text-s {
+  font-size: var(--font-s)
+}
+
+.text-m {
+  font-size: var(--font-m);
+}
+
+.text-l {
+  font-size: var(--font-l);
+}
+
+.text-xl {
+  font-size: var(--font-xl);
 }
 
 /*
