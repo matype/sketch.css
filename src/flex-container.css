@@ -1,78 +1,6 @@
 /*
  * for creating flex container
  */
-.center-center-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.center-start-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.center-end-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.center-spaceBetween-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.start-center-box {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-}
-
-.start-start-box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.start-end-box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
-
-.start-spaceBetween-box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.end-center-box {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.end-start-box {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
-.end-end-box {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.end-spaceBetween-box {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
 .left-top-box {
   display: flex;
   justify-content: flex-start;
@@ -82,7 +10,7 @@
 .left-middle-box {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-center;
+  align-items: center;
 }
 
 .left-bottom-box {
