@@ -3,11 +3,11 @@
  */
 :root {
   --spacing-none: 0;
-  --spacing-xs: .25rem;
-  --spacing-s: .5rem;
-  --spacing-m: 1rem;
-  --spacing-l: 2rem;
-  --spacing-xl: 4rem;
+  --spacing-xs: .5rem;
+  --spacing-s: 1rem;
+  --spacing-m: 2rem;
+  --spacing-l: 4rem;
+  --spacing-xl: 8rem;
 }
 
 /*
@@ -40,10 +40,11 @@
  * Font size
  */
 :root {
-  --font-xs: 1rem;
-  --font-s: 1.2rem;
-  --font-m: 1.4rem;
-  --font-l: 1.6rem;
-  --font-xl: 2rem;
-  --font-xxl: 2.4rem;
+  --font-xxs: 1rem;
+  --font-xs: 1.2rem;
+  --font-s: 1.4rem;
+  --font-m: 1.6rem;
+  --font-l: 2rem;
+  --font-xl: 2.4rem;
+  --font-xxl: 3rem;
 }
